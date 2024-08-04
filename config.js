@@ -90,4 +90,4 @@ module.exports.JD5_IDS = [
 ];
 
 // These are our old server domains, this is used to detect DOL files with old URLs.
-module.exports.OLD_DOMAINS = ["lunar-project.online", "lunarservice.com];
+module.exports.OLD_DOMAINS = [];

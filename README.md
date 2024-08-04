@@ -1,6 +1,6 @@
 # PatcherWii
 
-PatcherWii is a user-friendly tool designed to simplify the process of patching your Just Dance games on Wii to let you access the **Galaxy-Legacy Legacy** world. 
+PatcherWii is a user-friendly tool designed to simplify the process of patching your Just Dance games on Wii to let you access the **Galaxy-Legacy** world. 
 
 ## What files can I patch?
 - [X] ISO

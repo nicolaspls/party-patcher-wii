@@ -70,4 +70,4 @@ Please note that Just Dance 2019 and 2020 do not have World Dance Floor support.
 
 - [X] DanceParty legacy servers core
 
-If you require further assistance, feel free to join our [Discord server]([https://discord.gg/gnPYhHX3]). We'll be happy to help!
+If you require further assistance, feel free to join our [Discord server](https://discord.gg/gnPYhHX3). We'll be happy to help!

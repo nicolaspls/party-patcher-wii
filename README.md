@@ -15,10 +15,10 @@ There are two different ways you can use this patcher:
 
 ### 1. Running with Node.JS
 
-To run PatcherWii with Node.JS, follow these steps:
+To run Patcher with Node.JS, follow these steps:
 
 1. Ensure you have Node.JS version 16 or higher installed on your system.
-2. Clone the PatcherWii repository using the command: `git clone https://github.com/nicolaspls/patcher-wii-main.git && cd patcher-wii-main`
+2. Clone the PatcherWii repository using the command: `git clone https://github.com/nicolaspls/party-patcher-wii.git && cd party-patcher-wii`
 3. Install the necessary dependencies with the command: `npm i`
 4. Once the installation is complete, you can run the tool and view the available CLI options by executing `node index.js`.
 5. To patch a bundle directly, use the following command: `node index.js path/to/wbfs/iso/or/dol`.
@@ -31,7 +31,7 @@ If you prefer to build PatcherWii from source, follow these steps:
 
 1. Ensure you have Node.JS version 16 or higher installed on your system.
 2. Install the "pkg" package globally using the command: `npm i -g pkg`.
-3. Clone the Patcher repository using the command: `git clone https://github.com/nicolaspls/patcher-wii-main.git && cd patcher-wii-main`.
+3. Clone the Patcher repository using the command: `git clone https://github.com/nicolaspls/party-patcher-wii.git && cd party-patcher-wii`.
 4. Install the necessary dependencies with the command: `npm i`.
 5. Build the tool using the command: `pkg .`.
 6. Once the build process is complete, you can find the built packages in the `dist/` directory.

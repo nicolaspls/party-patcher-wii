@@ -1,6 +1,6 @@
-# PatcherWii
+# Party Legacy Patcher Wii
 
-PatcherWii is a user-friendly tool designed to simplify the process of patching your Just Dance games on Wii to let you access the **Galaxy-Legacy** world. 
+This patcher is a user-friendly tool designed to simplify the process of patching your Just Dance games on Wii to let you access the **Party Legacy** services. 
 
 ## What files can I patch?
 - [X] ISO
@@ -31,12 +31,12 @@ If you prefer to build PatcherWii from source, follow these steps:
 
 1. Ensure you have Node.JS version 16 or higher installed on your system.
 2. Install the "pkg" package globally using the command: `npm i -g pkg`.
-3. Clone the PatcherWii repository using the command: `git clone https://github.com/nicolaspls/patcher-wii-main.git && cd patcher-wii-main`.
+3. Clone the Patcher repository using the command: `git clone https://github.com/nicolaspls/patcher-wii-main.git && cd patcher-wii-main`.
 4. Install the necessary dependencies with the command: `npm i`.
 5. Build the tool using the command: `pkg .`.
 6. Once the build process is complete, you can find the built packages in the `dist/` directory.
 
-With these simple instructions, you can easily patch your main.dol files and replace the original servers with Galaxy-Legacy servers using PatcherWii. Enjoy the enhanced experience!
+With these simple instructions, you can easily patch your main.dol files and replace the original servers with Galaxy-Legacy servers using Patcher. Enjoy the enhanced experience!
 
 ### Services Explanation
 - **NAS**: Authentication server by Nintendo
@@ -70,4 +70,4 @@ Please note that Just Dance 2019 and 2020 do not have World Dance Floor support.
 
 - [X] DanceParty legacy servers core
 
-If you require further assistance, feel free to join our [Discord server](https://discord.gg/6tVJZwQv). We'll be happy to help!
+If you require further assistance, feel free to join our [Discord server]([https://discord.gg/gnPYhHX3]). We'll be happy to help!

@@ -1,6 +1,6 @@
-# Party Legacy Patcher Wii
+# Midnight Legacy Patcher Wii
 
-This patcher is a user-friendly tool designed to simplify the process of patching your Just Dance games on Wii to let you access the **Party Legacy** services. 
+This patcher is a user-friendly tool designed to simplify the process of patching your Just Dance games on Wii to let you access the **Midnight Legacy** services. 
 
 ## What files can I patch?
 - [X] ISO
@@ -18,33 +18,25 @@ There are two different ways you can use this patcher:
 To run Patcher with Node.JS, follow these steps:
 
 1. Ensure you have Node.JS version 16 or higher installed on your system.
-2. Clone the PatcherWii repository using the command: `git clone https://github.com/nicolaspls/party-patcher-wii.git && cd party-patcher-wii`
+2. Clone the patch repository using the command: `git clone https://github.com/nicolaspls/midnight-patcher-wii.git && cd midnight-patcher-wii`
 3. Install the necessary dependencies with the command: `npm i`
 4. Once the installation is complete, you can run the tool and view the available CLI options by executing `node index.js`.
 5. To patch a bundle directly, use the following command: `node index.js path/to/wbfs/iso/or/dol`.
    For example: `node index.js C:/Users/Example/Desktop/JD2016.iso`
-6. PatcherWii will automatically patch your ISO file and save it as a new file. If you're patching DOL files, it will create a backup for it.
+6. The patch will begin automatically patch your ISO file and save it as a new file. If you're patching DOL files, it will create a backup for it.
 
 ### 2. Building from Source
 
-If you prefer to build PatcherWii from source, follow these steps:
+If you prefer to build this patcher from source, follow these steps:
 
 1. Ensure you have Node.JS version 16 or higher installed on your system.
 2. Install the "pkg" package globally using the command: `npm i -g pkg`.
-3. Clone the Patcher repository using the command: `git clone https://github.com/nicolaspls/party-patcher-wii.git && cd party-patcher-wii`.
+3. Clone the Patcher repository using the command: `git clone https://github.com/nicolaspls/midnight-patcher-wii.git && cd midnight-patcher-wii`.
 4. Install the necessary dependencies with the command: `npm i`.
 5. Build the tool using the command: `pkg .`.
 6. Once the build process is complete, you can find the built packages in the `dist/` directory.
 
 With these simple instructions, you can easily patch your main.dol files and replace the original servers with Galaxy-Legacy servers using Patcher. Enjoy the enhanced experience!
-
-### Services Explanation
-- **NAS**: Authentication server by Nintendo
-- **Rhode**: Handles leaderboards, online challengers, Just Dance Wall, and streamable maps
-- **WDF**: Facilitates World Dance Floor connections
-- **Tracking**: Used by the game to report bugs, issues, and errors, helping us improve the service. You can comment it out if desired.
-- **Shop**: In-game store server
-
 ------------
 
 ### Where can I find WBFS or ISO of Just Dance games?
@@ -70,4 +62,4 @@ Please note that Just Dance 2019 and 2020 do not have World Dance Floor support.
 
 - [X] DanceParty legacy servers core
 
-If you require further assistance, feel free to join our [Discord server](https://discord.gg/gnPYhHX3). We'll be happy to help!
+If you require further assistance, feel free to join our [Discord server](https://discord.gg/AxAVcdHH). We'll be happy to help!
